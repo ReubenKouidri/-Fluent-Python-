@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b23f8f-c563-4160-bb47-79221b552054" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ch19_DynamicAttributes/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch19_DynamicAttributes/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch_19_DynamicAttributes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch19_DynamicAttributes/Config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch19_DynamicAttributes/config2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ch19_DynamicAttributes/config2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674746478594</updated>
-      <workItem from="1674746479929" duration="6847000" />
+      <workItem from="1674746479929" duration="8859000" />
     </task>
     <servers />
   </component>
