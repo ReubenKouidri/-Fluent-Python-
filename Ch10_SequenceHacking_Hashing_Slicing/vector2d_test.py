@@ -11,6 +11,15 @@ class TestVector(unittest.TestCase):
         components = [1.0, 2.0, 3.0]
         self.vector = Vector(components)
 
+    def test_eq(self):
+        other = Vector([1.0, 2.0, 3.0])
+        other2 = Vector([1.0, 2.0])
+        self.assertTrue(self.vector == other)
+        self.assertFalse(self.vector == other2)
+
+    def test_hash(self):
+        ...
+
     def test_init(self):
         self.assertEqual(self.vector._components, array('d', [1.0, 2.0, 3.0]))
         self.assertEqual(self.vector.typecode, 'd')
