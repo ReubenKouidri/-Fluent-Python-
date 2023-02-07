@@ -4,6 +4,8 @@ import reprlib
 from array import array
 import math
 import numbers
+import functools
+import operator
 
 
 class Vector:
@@ -24,6 +26,13 @@ class Vector:
     # implementing __len__ and __getitem__ makes Vector a 'Sequence Protocol'
     def __len__(self):
         return len(self._components)
+
+    def __eq__(self, other):
+        return tuple(self) == tuple(other)
+
+    def __hash__(self):
+        hashes = (hash(x) for x in self._components)
+        return functools.reduce(operator.xor, hashes, 0)  # 0 = identity of op: initialiser if hashes empty.
 
     def __getitem__(self, index):
         cls = type(self)
