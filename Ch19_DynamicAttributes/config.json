@@ -1,0 +1,22 @@
+{
+  "modelConfigs": {
+    "training": {
+        "file_path": "Ch19_DynamicAttributes/data.txt",
+        "reference_path": "Ch19_DynamicAttributes/references.txt",
+        "loss_fc": "cross_entropy",
+        "epochs": 1,
+        "batch_size": 20,
+        "shuffle": "true",
+        "nesterov": "true",
+        "momentum": 0.9,
+        "lr": 0.001
+      },
+    "eval": {
+      "batch_size": "all",
+      "shuffle": "false"
+    }
+  },
+  "NasConfig": {
+    "default": {}
+  }
+}
